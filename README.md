@@ -1,5 +1,5 @@
 
-00-README for java-BGP
+README for java-BGP
 ----------------------
 
 Who?   Paul ('PJ') Jimenez by the graces of his 
@@ -20,19 +20,28 @@ How?   Blood, sweat and tears.  And Dr. Pepper.
 
 Included in this archive:
 ------------------------
+
 BGPHeader.java             BGP packet header decoding/encoding/access
-BGPListener.java           The main program that actually uses the 
-                             rest to listen to a BGP feed
+
+BGPListener.java           The main program that actually uses the rest to listen to a BGP feed
+
 BGPNotificationPacket.java BGP notify packet decoding/encoding/access
+
 BGPOpenPacket.java         BGP open packet decoding/encoding/access
+
 BGPOpenParameter.java      BGP open packet parameter decoding/encoding/access
+
 BGPPathAttribute.java      BGP path attr decoding/encoding/access
+
 BGPStatus.java             BGP session status keeping structure
+
 BGPUpdatePacket.java       BGP update packet decoding/encoding/access
+
 DataPacket.java            BGP update packet decoding/encoding/access
+
 InetNetwork.java           Class useful for encoding/decoding/viewing CIDR nets
-util.java                  Useful static method holder.  Mostly binary<->int
-                             encoding/decoding routines
+
+util.java                  Useful static method holder.  Mostly binary<->int encoding/decoding routines
 
 Known bugs:
 -----------
